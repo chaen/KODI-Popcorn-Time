@@ -1,74 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="0.6.5" provider-name="Diblo">
-        <requires>
-            <import addon="xbmc.python" version="2.14.0"/>
-        </requires>
-        <extension point="xbmc.python.pluginsource" library="addon.py">
-            <provides>video</provides>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <website><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></website>
-            <forum><![CDATA[http://forums.tvaddons.ag/threads/32586-KODI-Popcorn-Time]]></forum>
-            <source><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></source>
-            <language>English</language>
-            <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
-            <summary lang="en"><![CDATA[KODI Popcorn Time: Immediately stream movies in KODI.]]></summary>
-            <description lang="en"><![CDATA[With KODI Popcorn Time you can search for movies that you can see immediately in KODI.]]></description>
-            <noicon>false</noicon> 
-            <nofanart>false</nofanart> 
-        </extension>
-    </addon>
-    <addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="0.6.3" provider-name="Diblo">
+    <addon id="repository.kodipopcorntime" name="KODI Popcorn Time Repository" version="2.0.0" provider-name="chaen">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
         </requires>
-        <extension point="xbmc.python.pluginsource" library="addon.py">
-            <provides>video</provides>
-        </extension>
         <extension point="xbmc.addon.metadata">
             <platform>all</platform>
-            <website><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></website>
+            <website><![CDATA[https://github.com/chaen/KODI-Popcorn-Time]]></website>
             <forum><![CDATA[http://forums.tvaddons.ag/threads/32586-KODI-Popcorn-Time]]></forum>
-            <source><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></source>
-            <language>English</language>
-            <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
-            <summary lang="en"><![CDATA[KODI Popcorn Time: Immediately stream movies in KODI.]]></summary>
-            <description lang="en"><![CDATA[With KODI Popcorn Time you can search for movies that you can see immediately in KODI.]]></description>
-            <noicon>false</noicon> 
-            <nofanart>false</nofanart> 
-        </extension>
-    </addon>
-    <addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="0.6.3~beta" provider-name="Diblo">
-        <requires>
-            <import addon="xbmc.python" version="2.14.0"/>
-        </requires>
-        <extension point="xbmc.python.pluginsource" library="addon.py">
-            <provides>video</provides>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <website><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></website>
-            <forum><![CDATA[http://forums.tvaddons.ag/threads/32586-KODI-Popcorn-Time]]></forum>
-            <source><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></source>
-            <language>English</language>
-            <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
-            <summary lang="en"><![CDATA[KODI Popcorn Time: Immediately stream movies in KODI.]]></summary>
-            <description lang="en"><![CDATA[With KODI Popcorn Time you can search for movies that you can see immediately in KODI.]]></description>
-            <noicon>false</noicon> 
-            <nofanart>false</nofanart> 
-        </extension>
-    </addon>
-    <addon id="repository.kodipopcorntime" name="KODI Popcorn Time Repository" version="1.0.4" provider-name="Diblo">
-        <requires>
-            <import addon="xbmc.python" version="2.14.0"/>
-        </requires>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <website><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></website>
-            <forum><![CDATA[http://forums.tvaddons.ag/threads/32586-KODI-Popcorn-Time]]></forum>
-            <source><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></source>
+            <source><![CDATA[https://github.com/chaen/KODI-Popcorn-Time]]></source>
             <language>English</language>
             <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
             <summary lang="en"><![CDATA[KODI Popcorn Time Auto Update.]]></summary>
@@ -77,15 +17,92 @@
             <nofanart>false</nofanart> 
         </extension>
     </addon>
-    <addon id="repository.kodipopcorntime" name="KODI Popcorn Time Repository" version="1.0.2" provider-name="Diblo">
+    <addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="0.6.5" provider-name="chaen">
+        <requires>
+            <import addon="xbmc.python" version="2.14.0"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="addon.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <website><![CDATA[https://github.com/chaen/KODI-Popcorn-Time]]></website>
+            <forum><![CDATA[http://forums.tvaddons.ag/threads/32586-KODI-Popcorn-Time]]></forum>
+            <source><![CDATA[https://github.com/chaen/KODI-Popcorn-Time]]></source>
+            <language>English</language>
+            <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
+            <summary lang="en"><![CDATA[KODI Popcorn Time: Immediately stream movies in KODI.]]></summary>
+            <description lang="en"><![CDATA[With KODI Popcorn Time you can search for movies that you can see immediately in KODI.]]></description>
+            <noicon>false</noicon> 
+            <nofanart>false</nofanart> 
+        </extension>
+    </addon>
+    <addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="0.6.3" provider-name="chaen">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="addon.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <website><![CDATA[https://github.com/chaen/KODI-Popcorn-Time]]></website>
+            <forum><![CDATA[http://forums.tvaddons.ag/threads/32586-KODI-Popcorn-Time]]></forum>
+            <source><![CDATA[https://github.com/chaen/KODI-Popcorn-Time]]></source>
+            <language>English</language>
+            <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
+            <summary lang="en"><![CDATA[KODI Popcorn Time: Immediately stream movies in KODI.]]></summary>
+            <description lang="en"><![CDATA[With KODI Popcorn Time you can search for movies that you can see immediately in KODI.]]></description>
+            <noicon>false</noicon> 
+            <nofanart>false</nofanart> 
+        </extension>
+    </addon>
+    <addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="0.6.3~beta" provider-name="chaen">
+        <requires>
+            <import addon="xbmc.python" version="2.14.0"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="addon.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <website><![CDATA[https://github.com/chaen/KODI-Popcorn-Time]]></website>
+            <forum><![CDATA[http://forums.tvaddons.ag/threads/32586-KODI-Popcorn-Time]]></forum>
+            <source><![CDATA[https://github.com/chaen/KODI-Popcorn-Time]]></source>
+            <language>English</language>
+            <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
+            <summary lang="en"><![CDATA[KODI Popcorn Time: Immediately stream movies in KODI.]]></summary>
+            <description lang="en"><![CDATA[With KODI Popcorn Time you can search for movies that you can see immediately in KODI.]]></description>
+            <noicon>false</noicon> 
+            <nofanart>false</nofanart> 
+        </extension>
+    </addon>
+    <addon id="repository.kodipopcorntime" name="KODI Popcorn Time Repository" version="1.0.4" provider-name="chaen">
         <requires>
             <import addon="xbmc.python" version="2.14.0"/>
         </requires>
         <extension point="xbmc.addon.metadata">
             <platform>all</platform>
-            <website><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></website>
+            <website><![CDATA[https://github.com/chaen/KODI-Popcorn-Time]]></website>
             <forum><![CDATA[http://forums.tvaddons.ag/threads/32586-KODI-Popcorn-Time]]></forum>
-            <source><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></source>
+            <source><![CDATA[https://github.com/chaen/KODI-Popcorn-Time]]></source>
+            <language>English</language>
+            <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
+            <summary lang="en"><![CDATA[KODI Popcorn Time Auto Update.]]></summary>
+            <description lang="en"><![CDATA[KODI Popcorn Time Auto Update.]]></description>
+            <noicon>false</noicon> 
+            <nofanart>false</nofanart> 
+        </extension>
+    </addon>
+    <addon id="repository.kodipopcorntime" name="KODI Popcorn Time Repository" version="1.0.2" provider-name="chaen">
+        <requires>
+            <import addon="xbmc.python" version="2.14.0"/>
+        </requires>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <website><![CDATA[https://github.com/chaen/KODI-Popcorn-Time]]></website>
+            <forum><![CDATA[http://forums.tvaddons.ag/threads/32586-KODI-Popcorn-Time]]></forum>
+            <source><![CDATA[https://github.com/chaen/KODI-Popcorn-Time]]></source>
             <language>English</language>
             <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
             <summary lang="en"><![CDATA[KODI Popcorn Time Auto Update.]]></summary>
